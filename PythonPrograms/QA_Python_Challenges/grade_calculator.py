@@ -11,6 +11,6 @@ elif percent >= 60 and percent < 70:
 elif percent >= 50 and percent < 60:
     print("C")
 elif percent >= 40 and percent < 50:
-    print("B")
+    print("D")
 else:
     print("You failed")
