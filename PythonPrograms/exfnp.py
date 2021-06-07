@@ -16,7 +16,7 @@ def mark(mark_number):
     return answer
 
 name = input("Enter your name here: ")
-percent = grade(int(input("Enter the homework score: ")), int(input("Enter the assessment score: ")), int(input("Enter the final exam score:")))
+percent = round(grade(int(input("Enter the homework score: ")), int(input("Enter the assessment score: ")), int(input("Enter the final exam score:"))))
 letter_mark = mark(percent)
 
 print(f"{name}: {percent}%, you got a {letter_mark}")
