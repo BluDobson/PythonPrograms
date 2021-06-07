@@ -1,4 +1,4 @@
-isbn = input("Please enter the ISBN: ")
+isbn = input("Please enter the ISBN as a 12 digit number: ")
 
 d1 = int(isbn[0])
 d2 = int(isbn[1])*3
