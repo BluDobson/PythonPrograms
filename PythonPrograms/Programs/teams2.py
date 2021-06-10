@@ -8,7 +8,7 @@ def edit_teams():
             outfile += file.readline()
         else:
             file.readline()
-    print(outfile)
+            
     file = open("teams.txt", "w")
     file.write(outfile)
     file.close()
