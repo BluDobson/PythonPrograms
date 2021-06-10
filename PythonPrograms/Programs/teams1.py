@@ -1,18 +1,8 @@
 def write_teams():
     file = open("teams.txt", "w")
-
-    team1 = "Team 1: Chelsea" + "\n"
-    team2 = "Team 2: Manchester United" + "\n"
-    team3 = "Team 3: Liverpool" + "\n"
-    team4 = "Team 4: Arsenal" + "\n"
-    team5 = "Team 5: Manchester City" + "\n"
-
-    file.write(team1)
-    file.write(team2)
-    file.write(team3)
-    file.write(team4)
-    file.write(team5)
-
+    teams = ["Team 1: Chelsea", "Team 2: Manchester United", "Team 3: Liverpool", "Team 4: Arsenal", "Team 5: Manchester City"]
+    for i in teams:
+        file.write(f"{i} \n")
     file.close()
 
 def read_teams():
